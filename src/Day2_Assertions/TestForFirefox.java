@@ -1,4 +1,4 @@
-package Day_2_Assertions;
+package Day2_Assertions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

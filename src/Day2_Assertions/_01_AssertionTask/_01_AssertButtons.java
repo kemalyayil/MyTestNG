@@ -1,4 +1,4 @@
-package Day_2_Assertions._01_AssertionTask;
+package Day2_Assertions._01_AssertionTask;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
