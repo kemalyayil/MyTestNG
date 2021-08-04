@@ -1,9 +1,23 @@
-package Day15_TestNGInstalling_FirstMethods;
+package Day1_TestNGInstalling_FirstMethods;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class _01_TestNGTest {
+public class _03_TestNGBeforeAfterClass {
+
+    @BeforeClass        // it will get executed once before any test executed. first that will be executed
+   public void beforeAllTest(){
+       System.out.println("Do sth before all the tests");
+   }
+
+
+
+   @AfterClass       // that will be executed in the end (only 1 time).
+   public void afterEachTest(){
+       System.out.println("Do sth after all the tests");
+   }
+
+
     @Test
     public void test1(){
         String url = "www.techno.study";
