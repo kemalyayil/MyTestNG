@@ -129,7 +129,7 @@ public class _01_TstNGAssertions {
 
     @Test
     public void assertFail(){
-        // bu line varsa, test will fail. hangi durumlarda kullaniriz bunu ==>
+        // bu line varsa(alttaki), test will fail. hangi durumlarda kullaniriz bunu
         // Assert.fail();
 
         if (!isDataAvailable()){        // bu sekilde olursa , if condition saglanmasi durumunda test gecer, aksi taktirde fail
