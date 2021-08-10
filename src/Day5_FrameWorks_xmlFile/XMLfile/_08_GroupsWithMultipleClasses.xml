@@ -1,0 +1,14 @@
+<suite name="Suite">
+    <test name="Test">
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name ="Day5_FrameWorks_xmlFile._03_Groups"></class>
+            <class name ="Day5_FrameWorks_xmlFile._04_SecondGroupsClass"></class>
+        </classes>
+    </test>
+</suite>

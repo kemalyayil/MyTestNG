@@ -1,0 +1,12 @@
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <groups>
+                <run>
+                    <include name = "SmokeTest"></include>      <!-- bu sekilde sadece smokeTest olan grup u test eder -->
+                </run>
+            </groups>
+            <class name = "Day5_FrameWorks_xmlFile._03_Groups"></class>
+        </classes>
+    </test>
+</suite>

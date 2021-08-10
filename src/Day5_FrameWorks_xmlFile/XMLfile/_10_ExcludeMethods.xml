@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name = "Day5_FrameWorks_xmlFile._04_SecondGroupsClass"></class>
+            <methods>
+                <include name="TestOne"></include>      <!-- Bu sekilde sadece 'TestOne' i test edecek -->
+            </methods>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <test name="RegressionTest">
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+    </test>
+</suite>
+<!-- burda bi sikinti var, hoca bakacak -->

@@ -1,0 +1,14 @@
+<!-- Exclude will run all the @Test except the ones with 'SmokeTest' group -->
+
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <groups>
+                <run>
+                    <exclude name = "SmokeTest"></exclude>
+                </run>
+            </groups>
+            <class name = "Day5_FrameWorks_xmlFile._04_SecondGroupsClass"></class>
+        </classes>
+    </test>
+</suite>
