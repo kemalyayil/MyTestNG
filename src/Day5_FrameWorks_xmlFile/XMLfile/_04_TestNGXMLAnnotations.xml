@@ -1,0 +1,8 @@
+
+<suite name = "Test Suite">
+    <test name = "Test">
+        <classes>
+            <class name = "Day5_FrameWorks_xmlFile._01_TestNGXMLAnnotations"></class>
+        </classes>
+    </test>
+</suite>

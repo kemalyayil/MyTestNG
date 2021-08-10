@@ -1,0 +1,10 @@
+<!-- Adding multiple classes under <classes> tag will run multiple classes one after another-->
+
+<suite name = "MultipleClasses">
+    <test name = "MultipleClassesTestName">
+        <classes>
+            <class name = "Day4_._01_Subscribe"></class>
+            <class name = "Day4_._02_EditAccount"></class>
+        </classes>
+    </test>
+</suite>

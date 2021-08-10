@@ -1,0 +1,18 @@
+
+
+<!-- @BeforeMethod comes before @test and @BeforeTest comes before <test> -->
+
+<suite name = "MultipleTests">
+    <test name="Test1">
+        <classes>
+            <class name = "Day4_._02_EditAccount"></class>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name = "Day4_._02_EditAccount"></class>
+        </classes>
+    </test>
+
+</suite>
