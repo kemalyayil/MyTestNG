@@ -1,0 +1,22 @@
+                                        <!-- Benefits of XML -->
+
+<!-- Running multiple class at the same time -->
+<!-- Parametrize testing -->
+<!-- Parallel testing (open multiple browser at the same time - reduces execution time)-->
+<!-- Cross-browser testing-->
+
+<!-- Helps us to group tests like Regression,Smoke-->
+
+<!-- One XML file can only have one test suite-->
+<!-- One test suite can multiple test tags(<test>)-->
+
+<!-- .xml file is coming from testNG -->
+<!-- .xml file cannot run main methods. it looks for @Test annotations -->
+
+<suite name = "FirstSuite">
+    <test name = "FirstTest">
+        <classes>
+            <class name = "Day3_AutomationFrameWork._01_ValidateMenu"></class>
+        </classes>
+    </test>
+</suite>

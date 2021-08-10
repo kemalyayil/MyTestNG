@@ -1,0 +1,5 @@
+smoke test is checking if the environment is having all the components to run the application
+
+Sinan Y. — Today at 8:25 PM
+regression: if a new function added we run a test to make sure that new functions dont affect previous codes
+
