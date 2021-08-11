@@ -1,9 +1,9 @@
 <suite name="Suite">
     <test name="RegressionTest">
         <groups>
-            <run>
+            <method>
                 <include name="Regression"></include>
-            </run>
+            </method>
         </groups>
     </test>
 </suite>

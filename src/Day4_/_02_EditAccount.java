@@ -26,7 +26,7 @@ public class _02_EditAccount extends BaseDriver {
         inputFirstName.clear();
         inputLastName.clear();
 
-        inputFirstName.sendKeys("Mr");
+        inputFirstName.sendKeys("Mrrrr");
         inputLastName.sendKeys("Kemal");
 
         WebElement continueButton = driver.findElement(By.cssSelector("input[value='Continue']"));

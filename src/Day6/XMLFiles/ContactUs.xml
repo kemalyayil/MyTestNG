@@ -1,0 +1,8 @@
+<suite name ="Test Suite">
+    <test name = "Contact Us Function">
+        <parameter name="enquiry" value = "Why your bla bla"></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+        </classes>
+    </test>
+</suite>
