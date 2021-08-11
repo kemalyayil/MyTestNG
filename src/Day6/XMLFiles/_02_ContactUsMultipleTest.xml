@@ -1,0 +1,31 @@
+<suite name ="Suite">
+
+    <test name = "Contact Test with standard letters">
+        <parameter name="enquiry" value = "This is a test with standard characters"></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+        </classes>
+    </test>
+
+    <test name = "ContactUs Test with special characters">
+        <parameter name="enquiry" value = "!@#$$%^^?,.**("></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+        </classes>
+    </test>
+
+    <test name = "ContactUs Test with numeric characters">
+        <parameter name="enquiry" value = "12436373378"></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+        </classes>
+    </test>
+
+    <test name = "ContactUs Test with mixed characters">
+        <parameter name="enquiry" value = "12233asdklfk$%^^?,.**("></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+        </classes>
+    </test>
+
+</suite>

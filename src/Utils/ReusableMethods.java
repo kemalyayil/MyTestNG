@@ -10,7 +10,7 @@ import java.util.List;
 
 
 // This method will convert WebElement list into String List and return the String List.
-    public class ReusableMethods extends BaseDriver {
+    public class ReusableMethods extends BaseDriver_Sikintili {
     public static List<String> webElementListToStringList(List<WebElement> webElementList) {
         List<String> convertedList = new ArrayList<>();
 

@@ -9,8 +9,8 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
-public class BaseDriver {
-                                                // Hocanin BaseDriver i
+public class BaseDriver_Sikintili {
+
     // Webdriver driver - Access Modifier:
     // should be public or protected
     protected WebDriver driver;
@@ -60,3 +60,6 @@ public class BaseDriver {
     }
 
 }
+
+
+

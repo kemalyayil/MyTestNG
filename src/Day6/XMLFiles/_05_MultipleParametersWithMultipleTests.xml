@@ -1,0 +1,19 @@
+<suite name = "Suite">
+    <test name = "Test">
+        <parameter name = "enquiry" value = "Test Enquiry"></parameter>
+        <parameter name = "searchItem" value = "HP"></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+            <class name = "Day6._02_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name = "Test2">
+        <parameter name = "enquiry" value = "This is another enquiry"></parameter>
+        <parameter name = "searchItem" value = "sony"></parameter>
+        <classes>
+            <class name = "Day6._01_ContactUsFunction"></class>
+            <class name = "Day6._02_SearchFunctionality"></class>
+        </classes>
+    </test>
+</suite>

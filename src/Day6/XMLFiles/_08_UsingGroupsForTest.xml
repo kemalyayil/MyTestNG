@@ -1,0 +1,16 @@
+<suite name = "Suite">
+    <test name = "Test">
+
+        <parameter name = "searchItem" value = "Mac"></parameter>
+
+        <groups>
+            <run>
+                <include name = "Regression"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name = "Day6._02_SearchFunctionality"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+<suite name ="Search Test">
+    <test name = "Search Function Test">
+        <parameter name="searchItem" value = "Mac"></parameter>
+        <classes>
+            <class name = "Day6._02_SearchFunctionality"></class>
+        </classes>
+    </test>
+</suite>
