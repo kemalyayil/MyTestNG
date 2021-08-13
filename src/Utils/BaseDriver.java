@@ -1,11 +1,14 @@
 package Utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,9 +19,17 @@ public class BaseDriver {
     protected WebDriver driver;
 
     @BeforeMethod(alwaysRun = true)
-    public void setup(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\zeynep\\Google Drive\\Selenium\\chromedriver.exe");
-        driver = new ChromeDriver();
+    @Parameters({"browser"})        // bunu browser degisikligi olmasi drumunda ekledik. Day7 da ders islerken.
+    public void setup(String browser){      // buradaki parametre de Day7 da eklendi .
+        if (browser.equalsIgnoreCase("chrome")){
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\zeynep\\Google Drive\\Selenium\\chromedriver.exe");
+            driver = new ChromeDriver();
+
+        }else if (browser.equalsIgnoreCase("firefox")){
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\zeynep\\Google Drive\\DRIVER KURULUM DOSYALARI&LIB\\geckodriver.exe");
+            driver = new FirefoxDriver();
+        }
+
         driver.manage().window().maximize();
 
         //bunu halit hoca ile beraber yaptik. zira AddressBookFunction 'da State "New York" secerken hata veriyordu.
@@ -35,11 +46,17 @@ public class BaseDriver {
         WebElement loginButton = driver.findElement(By.linkText("Login"));
         loginButton.click();
 
-        WebElement advancedButton = driver.findElement(By.xpath("//button[@id='details-button']"));
-        advancedButton.click();
+        try {
+            //advancedButton ve proceedLink sadece chrome da oluyor.firefox da olmuyor
+            WebElement advancedButton = driver.findElement(By.xpath("//button[@id='details-button']"));
+            advancedButton.click();
 
-        WebElement proceedLink = driver.findElement(By.xpath("//a[@id='proceed-link']"));
-        proceedLink.click();
+            WebElement proceedLink = driver.findElement(By.xpath("//a[@id='proceed-link']"));
+            proceedLink.click();
+        }catch (NoSuchElementException e){
+            System.out.println("This part is only from Chrome");
+        }
+
 
         WebElement username = driver.findElement(By.id("input-email"));
         username.sendKeys("kk@kk.com");

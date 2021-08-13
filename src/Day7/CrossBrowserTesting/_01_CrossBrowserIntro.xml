@@ -1,0 +1,15 @@
+<suite name="CrossBrowser Test">
+    <test name="Test in ChromeBrowser">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Day4_._01_Subscribe"></class>
+        </classes>
+    </test>
+
+    <test name="Test in FireFoxBrowser">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="Day4_._01_Subscribe"></class>
+        </classes>
+    </test>
+</suite>

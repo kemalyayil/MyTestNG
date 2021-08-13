@@ -1,4 +1,4 @@
-package Day6;
+package Day6_Xml_Parameters;
 
 import Utils.BaseDriver;
 import org.openqa.selenium.By;

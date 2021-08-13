@@ -1,4 +1,4 @@
-package Day6;
+package Day6_Xml_Parameters;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

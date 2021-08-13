@@ -5,7 +5,7 @@
         <parameter name="searchItem" value="Sony"></parameter>
 
         <classes>
-          <class name="Day6._02_SearchFunctionality"></class>
+          <class name="Day6_Xml_Parameters._02_SearchFunctionality"></class>
         </classes>
     </test>
 </suite>

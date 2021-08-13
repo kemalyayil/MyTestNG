@@ -1,0 +1,26 @@
+<suite name="CrossBrowser Testing">
+
+    <test name="Running Tests in Chrome">
+        <parameter name = "browser" value="chrome"></parameter>
+        <parameter name = "searchItem" value="Mac"></parameter>
+        <classes>
+            <class name = "Day4_._01_Subscribe"></class>
+            <class name = "Day4_._02_EditAccount"></class>
+            <class name = "Day4_._03_AddressBookFunction"></class>
+            <class name = "Day6_Xml_Parameters._02_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="Running Tests in FireFox">
+        <parameter name = "browser" value="firefox"></parameter>
+        <parameter name = "searchItem" value="Mac"></parameter>
+        <classes>
+            <class name = "Day4_._01_Subscribe"></class>
+            <class name = "Day4_._02_EditAccount"></class>
+            <class name = "Day4_._03_AddressBookFunction"></class>
+            <class name = "Day6_Xml_Parameters._02_SearchFunctionality"></class>
+        </classes>
+
+    </test>
+
+</suite>

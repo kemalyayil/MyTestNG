@@ -1,0 +1,10 @@
+<suite name="Parallel Test For Methods" parallel = "methods" thread-count="3">
+<!-- thread-count browser adedini belirler.  3 browse ayni anda acilacak  ve ayni anda test edilecek(parallel test).
+2 yazarsak mesela, metotlarimizi iki iki test eder.
+bu ibareyi koymazsak ayri ayri test eder ve daha uzun surer-->
+    <test name="Parallel Execution">
+        <classes>
+            <class name="Day7.ParallelTesting._01_Methods.ParallelTestMethods"></class>
+        </classes>
+    </test>
+</suite>
