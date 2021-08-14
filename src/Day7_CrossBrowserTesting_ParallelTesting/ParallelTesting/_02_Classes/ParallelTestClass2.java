@@ -1,4 +1,4 @@
-package Day7.ParallelTesting._02_Classes;
+package Day7_CrossBrowserTesting_ParallelTesting.ParallelTesting._02_Classes;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

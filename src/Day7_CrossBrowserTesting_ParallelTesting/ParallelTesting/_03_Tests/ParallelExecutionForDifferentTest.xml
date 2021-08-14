@@ -1,13 +1,13 @@
 <suite name="Parallel Test Execution" parallel="tests" thread-count="2">
     <test name="Parallel Test1">
         <classes>
-            <class name="Day7.ParallelTesting._03_Tests.FirstClass"></class>
+            <class name="Day7_CrossBrowserTesting_ParallelTesting.ParallelTesting._03_Tests.FirstClass"></class>
         </classes>
     </test>
 
     <test name="Parallel Test2">
         <classes>
-            <class name="Day7.ParallelTesting._03_Tests.SecondClass"></class>
+            <class name="Day7_CrossBrowserTesting_ParallelTesting.ParallelTesting._03_Tests.SecondClass"></class>
         </classes>
     </test>
 

@@ -1,0 +1,8 @@
+<suite name="Parallel Execution For Classes" parallel = "classes" thread-count="2">
+    <test name="Test Classes">
+    <classes>
+        <class name="Day7_CrossBrowserTesting_ParallelTesting.ParallelTesting._02_Classes.ParallelTestClass1"></class>
+        <class name="Day7_CrossBrowserTesting_ParallelTesting.ParallelTesting._02_Classes.ParallelTestClass2"></class>
+    </classes>
+    </test>
+</suite>

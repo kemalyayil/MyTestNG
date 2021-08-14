@@ -4,7 +4,7 @@
 bu ibareyi koymazsak ayri ayri test eder ve daha uzun surer-->
     <test name="Parallel Execution">
         <classes>
-            <class name="Day7.ParallelTesting._01_Methods.ParallelTestMethods"></class>
+            <class name="Day7_CrossBrowserTesting_ParallelTesting.ParallelTesting._01_Methods.ParallelTestMethods"></class>
         </classes>
     </test>
 </suite>

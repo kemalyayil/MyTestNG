@@ -1,0 +1,8 @@
+<suite name = "Test Suite">
+    <test name = "Search Function Test">
+        <parameter name = "browser" value = "chrome"></parameter>
+        <classes>
+            <class name = "Day_DataProvider._03_SearchTestWithDataProviderAndXML"></class>
+        </classes>
+    </test>
+</suite>
